@@ -1,3 +1,7 @@
+# Created by https://www.toptal.com/developers/gitignore/api/react,nuxtjs,node,windows,ssh
+# Edit at https://www.toptal.com/developers/gitignore?templates=react,nuxtjs,node,windows,ssh
+
+### Node ###
 # Logs
 logs
 *.log
@@ -102,7 +106,6 @@ dist
 
 # vuepress v2.x temp and cache directory
 .temp
-.cache
 
 # Docusaurus cache and generated files
 .docusaurus
@@ -128,3 +131,68 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+### Node Patch ###
+# Serverless Webpack directories
+.webpack/
+
+# Optional stylelint cache
+
+# SvelteKit build / generate output
+.svelte-kit
+
+### NuxtJS ###
+# Generated dirs
+.nuxt-*
+.output
+.gen
+
+# Node dependencies
+node_modules
+
+# System files
+
+### react ###
+.DS_*
+**/*.backup.*
+**/*.back.*
+
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+### SSH ###
+**/.ssh/id_*
+**/.ssh/*_id_*
+**/.ssh/known_hosts
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/react,nuxtjs,node,windows,ssh
